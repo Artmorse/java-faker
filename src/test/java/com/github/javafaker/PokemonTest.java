@@ -19,6 +19,6 @@ public class PokemonTest extends AbstractFakerTest {
 
     @Test
     public void type() {
-        assertThat(faker.pokemon().location(), matchesRegularExpression("\\w+( \\w+)?( \\w+)?"));
+        assertThat(faker.pokemon().type(), matchesRegularExpression("\\w+( \\w+)?( \\w+)?"));
     }
 }
